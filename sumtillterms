@@ -3,11 +3,11 @@ n = int(input('enter the number of terms'))
 start = 2
 sum = 0
 
-for i in range(0,n):
+for i in range(0,n):         #start already has 2 so we loop tll n-1
   if i < n-1:
-    print(start,end='+')
+    print(start,end='+')         #if not the last term them print the term with a + sign
   else:
-    print(start)
+    print(start)                #if the last term then print the term without a + sign
 
   sum = sum + start
   start = start*10 + 2
