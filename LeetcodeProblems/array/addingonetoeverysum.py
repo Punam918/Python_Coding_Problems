@@ -6,7 +6,7 @@ Explanation: 124 + 1 = 125
 
 '''
 def add_one(arr):
-    num = int(''.join(map(str, arr)))  # Converting list to an integer
+    num = int(''.join(map(str, arr)))  # Converting list to an string first and integer
     num += 1  
     return num  
 inp = [1, 2, 4]
