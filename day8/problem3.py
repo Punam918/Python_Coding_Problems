@@ -1,8 +1,6 @@
 '''You want to invoke a method in a parent class in place of a method that has been
 overridden in a subclass. Explore mro.'''
 
-
-
 # To invoke a method from a parent class instead of an overridden method in a subclass, 
 # you can use the super() function in Python, which allows you to access the parent class's
 # methods within the subclass, effectively "calling up" the method resolution order (MRO) to reach

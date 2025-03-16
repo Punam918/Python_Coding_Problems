@@ -1,10 +1,6 @@
 '''
 
-
-    Encoding and Decording of strings in python
-
-
-
+Encoding and Decording of strings in python
 
 Certainly! Encoding and decoding strings in Python is a common task, especially when dealing with different character sets or preparing data for transmission. Here’s a concise guide to help you understand how to do it:
 

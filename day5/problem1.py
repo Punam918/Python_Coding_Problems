@@ -5,10 +5,7 @@ overwrites the existing content of a file with new data.'''
 with open("example.txt", "a") as file:
     user_input = input("Enter text to append: ")  
     file.write(user_input + "\n") 
-
 print("Your input has been appended to 'example.txt'.")
-
-
 
 # Opening file in write mode ('w') for overwritting
 with open("example.txt", "w") as file:

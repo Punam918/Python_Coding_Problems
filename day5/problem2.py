@@ -4,7 +4,6 @@ like objects instead. ( files in memory)
 '''
 
 import io
-
 text_data = "This is a sample text string."
 text_file = io.StringIO(text_data)
 print("Reading from the text file-like object:")
@@ -17,7 +16,6 @@ text_file.close()
 
 
 # Binary String as a File-Like Object (io.BytesIO)
-
 import io
 binary_data = b"This is a sample binary data."
 # Creating a file-like object from the binary data

@@ -12,7 +12,7 @@ Performance	Faster due to direct evaluation	               Slower as it uses tup
 Readability	More readable and concise	                     Less readable, especially for multiple variables
 Flexibility	Supports expressions inside {}	                  Limited to simple variable substitution
 Usage with Objects	Supports direct method calls within {}	     Requires explicit conversion using str()
-Introduced In	Python 3.6	Python 2 and Python 3
+Introduced In	Python 3.6	Python 2 and Python 3                           
 Memory Efficiency	More efficient, avoids extra function calls          	Less efficient due to intermediate processing
 Preferred For	Modern Python applications	                        Legacy code compatibility
 Performance Benchmark (Time Complexity)
