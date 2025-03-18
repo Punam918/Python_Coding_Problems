@@ -1,17 +1,10 @@
-#mississipp to ssssiiippm
 from collections import Counter
 
-def wordcountandtransform(s):
-    # Count the frequency of each character
+def rearrange_string(s):
     freq = Counter(s)
-    
-    # Sort characters first by frequency (descending) and then by order of appearance
-    sorted_chars = sorted(s, key=lambda rx: (-freq[x], s.index(x)))
-    
-    # Join the sorted characters into a string
-    transformed = ''.join(sorted_chars)
-    
-    return transformed
+    sorted_chars = sorted(freq.keys(), key=lambda x: (-freq[x], x))  # Sort by frequency, then alphabetically
+    return "".join(char * freq[char] for char in sorted_chars)
 
-# Example usage
-print(wordcountandtransform('mississipp'))
+s = "mississipp"
+result = rearrange_string(s)
+print(result)  # Output: "ssssiiippm"
