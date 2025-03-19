@@ -1,4 +1,4 @@
-'''Print ! to n without using loop'''
+'''Print 1 to n without using loop'''
 def recursion(num):
     if num>0:
         recursion(num-1)
