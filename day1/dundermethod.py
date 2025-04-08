@@ -98,7 +98,8 @@
 # Let’s see some of the Python magic methods with examples:
 
 # 1. __init__ method
-# The __init__ method for initialization is invoked without any call, when an instance of a class is created, like constructors in certain other programming languages such as C++, Java, C#, PHP, etc.
+# The __init__ method for initialization is invoked without any call, when an instance of a class is created, 
+# like constructors in certain other programming languages such as C++, Java, C#, PHP, etc.
 
 # These methods are the reason we can add two strings with the ‘+’ operator without any explicit typecasting. 
 

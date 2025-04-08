@@ -8,3 +8,6 @@ def rearrange_string(s):
 s = "mississipp"
 result = rearrange_string(s)
 print(result)  # Output: "ssssiiippm"
+
+
+
