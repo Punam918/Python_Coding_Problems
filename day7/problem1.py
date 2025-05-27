@@ -3,7 +3,6 @@ aabb = []
 for char in a:
     if char not in aabb:
         aabb.append(char)
-        
 print(aabb)
 
 

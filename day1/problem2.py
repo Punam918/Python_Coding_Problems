@@ -15,5 +15,4 @@ largest_portfolios = sorted(protfolio, key=lambda x: x['price'], reverse=True)[:
 smallest_portfolios = sorted(protfolio, key=lambda x: x['price'])[:3]
 
 print("\nLargest 3 portfolios by price:", largest_portfolios)
-
 print("Smallest 3 portfolios by price:", smallest_portfolios)
