@@ -15,3 +15,36 @@
     Though it goes at 987 recursion for then python will throw stack overflow error.
 '''
 
+''' print punam for 4 times'''
+#head recursion
+count = 0 # for determining the cout of no of times the loop is running
+def func():
+    if count == 4:
+        return 
+    print("punam")
+    count+=1
+    func()
+    
+    """
+    Tc = function call o(1), count also same,
+    so for TC = o(n+1) n for 4 times can be any times so n 
+    so TC = o(n)
+    sc = o(n+1) == o(n)
+    """
+    
+# another way 
+#tail recursion 
+def func():
+    if count == 4:
+        return 
+    count +=1
+    func()
+    print("punam")
+    
+    
+    """
+    Tc = function call o(1), count also same,
+    so for TC = o(n+1) n for 4 times can be any times so n 
+    so TC = o(n)
+    sc = o(n+1) == o(n)
+    """
