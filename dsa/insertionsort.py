@@ -9,3 +9,19 @@ for i in range(1,n):
     my_array.insert(insert_index, current_value)
 
 print("Sorted array:", my_array)
+'''
+https://www.youtube.com/watch?v=-CI6Lhv1fOw&list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU&index=21
+
+TC = o(n**2)
+SC = o(1)
+'''
+
+n =len(my_array)
+for i in range(1,n):
+    key = my_array[i]
+    j = i-1
+    while j>=0 and my_array[j]>key:
+        my_array[j+1] = my_array[j]
+        j-=1 
+    my_array[j+1]=key
+        
