@@ -1,0 +1,14 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./day2",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestArgs": [
+        "day1"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": true
+}
