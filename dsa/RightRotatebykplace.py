@@ -13,3 +13,5 @@ print(nums)
 n = len(nums)
 k = n%k
 nums[:] = nums[n-k:] + nums[:n-k]
+
+''' Tc = o(k) + o(n-k)'''
