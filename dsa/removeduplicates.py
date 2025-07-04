@@ -34,6 +34,8 @@ while j<n:
         nums[i],nums[j] = nums[j],nums[i]
     j+=1 
 
+return i+1
+
 ''' SC = o(1)
     TC = o(n)
 '''
