@@ -28,3 +28,15 @@ def findmissing(nums):
         
 ''' Tc =  o(n) + o(n) + o(n) = o(3n) = o(n)'''
 ''' SC  = o(n)'''
+
+#optimal solution 
+
+def missing_number(nums):
+    n = len(nums)
+    expected_sum = n * (n + 1) // 2
+    actual_sum = sum(nums)
+    return expected_sum - actual_sum
+
+nums = [9, 6, 4, 2, 3, 5, 7, 0, 1]
+print(missing_number(nums))
+''' TC  = o(n) sc = o(1) '''
