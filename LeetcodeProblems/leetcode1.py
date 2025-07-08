@@ -10,8 +10,6 @@ def twosum(nums,target):
 print(twosum([1,2,3,4,5,6],7))
 
 ''' TC = o(n*(n+1)/2 = o(n**2)  SC = o(1)'''
-
-
 #optimal
 nums = [5,9,1,2,4,15,6,3]
 def twos(nums,target):
