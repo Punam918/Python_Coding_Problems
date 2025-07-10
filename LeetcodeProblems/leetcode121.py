@@ -23,7 +23,7 @@ def maxp(prices):
         minprice = min(minprice,prices[i])
         maxprofit = max(maxprofit,prices[i]-minprice)
 
-    return max_profit 
+    return maxp 
 '''     
     TC = O(n)
     Sc = o(1)
