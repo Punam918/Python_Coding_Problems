@@ -28,3 +28,12 @@ for i in range(0,row):
         else:
             print("*",end = " ")
     print()
+
+#Transpose 
+row_ = len(nums)
+col_ = len(nums[0])
+result = [[[0]]*rows for _ in range(col_)]
+for i in range(0,row_):
+    for j in range(0,col_):
+        result[j][i] = nums[i][j]
+print(result)
