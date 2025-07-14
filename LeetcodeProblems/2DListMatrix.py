@@ -6,3 +6,25 @@ for i in range(0,rows):
         print(nums[i][j], end = " ")
     print() #this will print others in other new line
 
+
+#upper triangle
+row = len(nums)
+col = len(nums[0])
+for i in range(0,row):
+    for j in range(0,col):
+        if j>=i:
+            print(nums[i][j], end = " ")
+        else:
+            print("*",end = " ")
+    print()
+
+#lower triange
+row = len(nums)
+col = len(nums[0])
+for i in range(0,row):
+    for j in range(0,col):
+        if j<=i:
+            print(nums[i][j], end = " ")
+        else:
+            print("*",end = " ")
+    print()
