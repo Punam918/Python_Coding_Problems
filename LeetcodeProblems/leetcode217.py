@@ -11,7 +11,7 @@ class Solution(object):
                 return True 
         return False 
 
-#TC  = o(nlogn) and SC = o(n)
+#TC  = o(nlogn) Here, Sorting takes nlog(n) and SC = o(n)
 
 #using set 
 
