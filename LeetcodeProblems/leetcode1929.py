@@ -21,3 +21,5 @@ class Solution:
         for i, num in enumerate(nums):
             ans[i] = ans[i + n] = num
         return ans
+    
+''' TC = o(n) sc = o(n)'''
