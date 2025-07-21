@@ -20,7 +20,7 @@ def twos(nums,target):
         if remaining in hash_map:
             return [hash_map[remaining],i]
         
-
+        
 
 
 ''' TC = o(n) if else is o(1) so total = o(n), sc = o(n)'''        
